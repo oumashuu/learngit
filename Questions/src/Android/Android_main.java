@@ -7,10 +7,11 @@ import java.sql.Statement;
 import java.util.Scanner;
 
 public class Android_main {
-	//创建一个返回随机数函数 Rand
+	//闅忔満鏁扮敓鎴愮被 Rand
 	String question;
 	String option;
 	String answer; 
+	int id;
 	public static void main(String[] args) {
 		Android_main and =  new Android_main();
 		and.ConMysql();
@@ -18,7 +19,7 @@ public class Android_main {
 		}
 	public static int Rand(){
 		int r;
-		r = (int)(1+Math.random()*4-1+1);
+		r = (int)(1+Math.random()*67-1+1);
 		return r;
 	}
 	public void  ConMysql(){
@@ -26,7 +27,7 @@ public class Android_main {
 		//System.out.print(r);
 		try{
 			Class.forName("com.mysql.jdbc.Driver");
-			String dbName = "questions";	                     //数据库名
+			String dbName = "questions";	                     //鏁版嵁搴撳悕
 	   		String url1="jdbc:mysql://localhost/" + dbName;
 	   		String url2="?user=root&password=123456"; 
 	   		String url3="&useUnicode=true&characterEncoding=UTF-8";
@@ -35,6 +36,7 @@ public class Android_main {
 			Statement st = con.createStatement();
 			ResultSet rs = st.executeQuery("select * from android where id='"+r+"'");
 			if(rs.next()){
+				id = rs.getInt(1);
 				question = rs.getString(2);
 				option = rs.getString(3);
 				answer = rs.getString(4);
@@ -45,15 +47,15 @@ public class Android_main {
 		}
 	}
 	public void Check(){
-		System.out.println(question);
+		System.out.println(id+","+question);
 		System.out.println(option);
 		Scanner in = new Scanner(System.in);
 		String ans = in.nextLine();
 		if(answer.equals(ans)){
-			System.out.println("正确");
+			System.out.println("姝ｇ‘");
 		}
 		else{
-			System.out.println("错误");
+			System.out.println("閿欒");
 		}
 		
 	}

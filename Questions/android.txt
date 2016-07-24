@@ -1,0 +1,491 @@
+﻿1、表示线性布局的是： 
+A. TableLayout  
+B. LinearLayout  
+C. FrameLayout  
+D. RelativeLayout
+
+2、网格布局中，用于表示行数的属性是 
+A. rowCount  
+B. columnCount  
+C. width  
+D. height
+
+3、TextView组件中，表示文字大小的属性是 
+A. android:text  
+B. android:textColor  
+C. android:textSize  
+D. android:textStyle
+
+4、设置Button背景图片的属性是
+A. android:background  
+B. android:shadowColor  
+C. android: typeface  
+D. android:text
+
+5、用于为EditText设置特定的输入方式的属性是
+A. android:cursorVisble  
+B. android:capitalize  
+C. android:inputType  
+D. style
+
+6、inputType属性中，表示输入数字的属性值是
+A. textPassword  
+B. number  
+C. textCapCharacters  
+D. textCapSentences
+
+7、以下表示按钮的组件是？ 
+A. TextView  
+B. EditText  
+C. Button  
+D. CheckBox
+
+8、可以有“开”、“关”两种状态的组件是： 
+A. ToggleButton 
+B. Button 
+C. RadioButton 
+D. ImageButton
+
+9、模拟时钟表示分针图标的属性是
+A. android:dial 
+B. android:hand_minute 
+C. android:hand_hour 
+D. android:format12Hour
+
+10、用ImageView组件显示的图片，往往放到哪个文件夹下
+A. drawable 
+B. values 
+C. layout 
+D. menu 
+
+11、ListView组件用于指定数据来源的属性是
+A. android:src  
+B. android:entries  
+C. android:typeface  
+D. android:text
+
+12、表示下拉选择框的组件是
+A. GridView 
+B. Spinner 
+C. AdapterViewFlipper 
+D. ImageButton
+
+13、表示进度条的组件是
+A. GridView 
+B. Spinner 
+C. AdapterViewFlipper 
+D. ProgressBar
+
+14、表示日历视图的组件是
+A. CalendarView 
+B. Spinner 
+C. AdapterViewFlipper 
+D. ProgressBar
+
+15、表示数值选择器的组件是
+A. CalendarView 
+B. NumberPicker 
+C. AdapterViewFlipper 
+D. ProgressBar
+ 
+16、 以下哪些不是service的生命周期方法（ C ） 
+A. onCreate 
+B. onStart 
+C. onPause 
+D. onDestroy 
+
+17、 在一个Activity中停止一个服务的,以下哪个方法是对的（ C ） 
+A. onStop 
+B. onPause 
+C. stopService 
+D. startService() 
+
+18、 以下哪一个类可以实现广播接收的功能（ A ） 
+A. BroadcastReceiver 
+B. Receiver 
+C. Broadcast 
+D. Activity 
+
+19、 在程序中,发送广播的方法是以下哪一个（ D ） 
+A. sendCast 
+B. sendBroad 
+C. sendService 
+D. sendBroadcast
+ 
+20、 在自定义控件过程中,以下哪个方法是用来重绘界面的（ B ） 
+A. onCreate 
+B. onDraw 
+C. onCanvas 
+D. onView 
+               
+21、 当使用文件存储的时候,默认创建的文件会放在什么位置（ C ） 
+A. shared_prefs 
+B. files 
+C. app 
+D. lib 
+
+22、 以下获取系统服务的方法正确的是（ B ） 
+A. GetService 
+B. GetSystemService 
+C. GetCast 
+D. getBroad 
+
+23、 在自己Activity中,实现电话号码呼叫以下哪个Intent的ACTION是正确的（ B ） 
+A. Intent(Intent.ACTION_CALL_BUTTON) 
+B. Intent(Intent.ACTION_DIAL) 
+C. Intent(Intent.ACTION_VIEW) 
+D. Intent(Intent.ACTION_SEND)
+ 
+24、 定义一个广播,需要继承哪个类（ C ） 
+A. Service 
+B. Broadcast 
+C. BroadcastReceiver 
+D. ContentProvider 
+
+25、 使用通知时,需要先得到通知管理器,通过什么系统服务才能获得通知管理器（ A ） 
+A. getSystemService(NOTIFICATION_SERVICE) 
+B. getSystemService(LOCATION_SERVICE) 
+C. getSystemService(ALARM_SERVICE) 
+D. getSystemService(ACTIVITY_SERVICE)
+ 
+26、 创建一个提示对话框,应创建下面哪种对话框实例（ A ） 
+A. AlertDialog 
+B. DatePickerDialog 
+C. TimePickerDialog 
+D. ProgressDialog 
+ 
+27、 下面哪种不是Android的存储方式（ D ） 
+A. File 
+B. SQLite 
+C. SharedPreferences 
+D. ContentProvider 
+
+28、 WebView控件可以用来浏览网页,那么想加载google首页时,应该使用下面什么方法,其中mWebView为控件对象（ C ） 
+A. mWebView.onPageStarted("http://www.google.com"); 
+B. mWebView.onLoadResource("http://www.google.com"); 
+C. mWebView.loadUrl("http://www.google.com"); 
+D. mWebView.onLoad("http://www.google.com"); ,
+
+29、 使用MediaPlayer来播放音乐,下面步骤正确的是（ B ） 
+A. MediaPlayer  mp = new MediaPlayer(); mp.setDataSource("/sdcard/test.mp3"); mp.create(); mp.start(); 
+B. MediaPlayer  mp = new MediaPlayer(); mp.setDataSource("/sdcard/test.mp3"); mp.prepare(); mp.start(); 
+C. MediaPlayer  mp = new MediaPlayer(); mp.setDataSource("/sdcard/test.mp3"); mp.start(); mp.prepare(); 
+D. MediaPlayer  mp = new MediaPlayer(); mp.setData("/sdcard/test.mp3"); mp.create(); mp.start(); 
+
+30、 关于RelativeLayout描述正确的是（ B ） 
+A. 该布局为绝对布局,可以自定义控件的x,y 的位置 
+B. 该布局为相对布局,其中控件的位置都是相对位置 
+C. 该布局为表格布局,需要配合TableRow一起使用 
+D. 该布局为切换卡布局,可实现标签切换的功能 
+
+31、 实现标签的切换,除了需要在XML中进行布局配置外,界面类需要继承哪个父类（ C ） 
+A. Activity 
+B. ListActity 
+C. TabActivity 
+D. TabHostActivity 
+
+32、 对话框上添加确定按钮,应该使用哪个方法（ B ） 
+A. SetSubmitButton 
+B. SetPositiveButton 
+C. SetNeutralButton 
+D. setNegativeButton 
+
+33、 关于SharedPreferences和文件存储数据描述正确的是（ B ） 
+A. 两种存储方式都可以将存储的数据共享给其他应用 
+B. 使用文件存储需要创建文件,而SharedPreferences的存储方式自动创建xml文件 
+C. SharedPreferences一般用于保存不经常改变的参数设置 
+D. 使用文件存储时,只能将文件保存在SD卡上 
+
+34、 关于Notification使用正确的是（ A ） 
+A. 需要用到 NotificationManager类 
+B. 需要发送广播实现notify 
+C. Notification出发Activity用Intent 
+D. 其它项不正确 
+
+35、 如果在MediaPlayer播放完毕后实现一个业务,需要注册什么事件在MediaPlayer（ C ） 
+A. onClickListener 
+B. onStopListener 
+C. OnCompletionListener 
+D. OnDestroyListener 
+
+36、 下面布局中,哪个布局会把控件放在左上角,当添加新的控件的时候,将覆盖在前一个控件的上层,并且不能设计控件的位置（ D ） 
+A. LinearLayout 
+B. RelativeLayout 
+C. TableLayout 
+D. FrameLayout 
+
+37、 关于WebSettings对象,理解错误的是（ C ） 
+A. WebSettings用来设置WebView的一些属性,状态 
+B. 通过WebView.getSettings()方法得到WebSettings对象 
+C. WebSettings和WebView在同一个生命周期中存在,当WebView被销毁后,再使用WebSettings会抛出InvalidStateException 
+D. 如果需要在程序中支持Javascript,需要使用WebSettings对象的setJavaScriptEnabled(true)方法 
+
+38、 Android支持的资源类型很多,而不同的资源需要放置在不同的文件夹下,下面资源文件夹放置的内容错误的是（ A ） 
+A. res/anim/放置flash资源文件 
+B. res/drawable/放置图片 
+C. res/raw/放置音频,视频等文件 
+D. res/layout放置描述屏幕布局的XML文件 
+
+39、 在Android中，用来实现类似PC上鼠标右键弹出菜单的方法是（ B ） 
+A. setOnCreateContextMenuListener(ListView view) 
+B. onCreateContextMenu(ContextMenu menu, View view, ContextMenuInfo menuInfo) 
+C. onCreateOptionsMenu() 
+D. onCreateLongClick() 
+
+40、 Intent intent = new Intent("com.aaa.bb.cc.A")这句话作用的是（ C ） 
+A. 显示调用com.aaa.bb.cc.A类 
+B. 隐式查找com.aaa.bb.cc.A的类 
+C. 隐式查找Action名字为"com.aaa.bb.cc.A"的Activity或服务 
+D. 调用一个ContentProvider 
+
+41、 使用文件存储数据时,下面说法正确的是（ B ） 
+A. 通过openFileOutput方法打开一个文件,如果文件不存在引发异常 
+B. 通过openFileOutput方法打开一个文件,如果文件不存在自动创建该文件 
+C. 通过openFileOutput方法打开一个文件，获取的是一File对象 
+D. 通过openFileOutput方法打开一个文件,获取的是一个OpenFileOutput对象 
+
+42、 如果MediaPlayer对象调用了reset方法后,再调用start方法,会触发什么事件（ A ） 
+A. OnErrorListener.onError() 
+B. OnPreparedListener.onPrepared() 
+C. OnCompletionListener.onCompletion() 
+D. OnPreparedListener.onStart() 
+
+43、 使用Toast提示时,关于提示时长,下面说法正确的是（ B ） 
+A. 可以自定义显示时长 
+B. 显示时长只有2种设置 
+C. 当自定义显示时长时,比如传入30,程序会抛出异常 
+D. 传入30时,提示会显示30秒钟 
+
+44、 在RelativeLayout布局中,有一个id为entry的EditText,目前有一个Button想放置在其左边,应为Button指定什么属性设置（ C ） 
+A. android:layout_toLeftOf="@id/entry" 
+B. android:layout_toRightOf="@id/entry" 
+C. android:layout_toLeftOf="@+id/entry" 
+D. android:layout_toRightOf="@+id/entry" 
+
+45、 Android系统自带的标准Action中,ACTION_VIEW的作用是什么（ B ） 
+A. 用于编辑特定数据 
+B. 用于显示数据 
+C. 用于删除特定数据 
+D. 用于在特定的一组数据中进行选择数据操作 
+
+46、 Intent对某操作的抽象描述不包含下面哪个部分（ C ） 
+A. Action 
+B. Data 
+C. Authorities 
+D. Category 
+
+47、 如果需要让通知显示的时候,手机伴随震动,那么应对通知对象的defaults属性设置什么值（ D ） 
+A. Notification.DEFAULT_SOUND 
+B. Notification.DEFAULT_LIGHTS 
+C. Notification.DEFAULT_ALL 
+D. Notification.DEFAULT_VIBRATE 
+
+48、 如果在android应用程序中需要发送短信,那么需要在AndroidManifest.xml文件中增加什么样的权限（ C ） 
+A. 发送短信，无需配置权限 
+B. permission.SMS 
+C. android.permission.SEND_SMS 
+D. android.permission.RECEIVE_SMS 
+
+49、 定义广播需要重写父类中的什么方法（ A ） 
+A. onReceive 
+B. onBroadcast 
+C. onSend 
+D. onCreate 
+
+50、 在AlertDialog中,以下哪个方法是用于取消的（ B ） 
+A. setPositiveButton 
+B. setNegativeButton 
+C. setConfirmButton 
+D. setCancelButton 
+
+51、 在调试程序时,需要查看变量值时,需要查看哪个窗口（ D ） 
+A. Console窗口 
+B. Logcat窗口 
+C. Outline窗口 
+D. Variables窗口 
+ 
+52、 Intent intent = new Intent(Intent.ACTION.VIEW,Uri.parse("http://mail.google.com"))这句话作用陈述正确的是（ B ） 
+A. 发送Email 
+B. 在浏览器浏览这个网址 
+C. 发送短信 
+D. 其它项不正确 
+
+53、 于广播以下陈述正确的是（ B ） 
+A. 广播接收器只能在配置文件中注册 
+B. 广播接收器可以在Activity中单独注册与注销 
+C. 广播接收器注册后不能注销 
+D. 广播接收器只能接收自定义的广播消息 
+
+54、 一个MediaPlayer对象,在调用了什么方法后,才会处于结束状态（ D ） 
+A. reset() 
+B. stop() 
+C. destory() 
+D. release() 
+
+55、 对于一个已经存在的SharedPreferences对象setting,想向其中存入一个字符串"person",setting应该先调用什么方法（ C ） 
+A. save() 
+B. putString() 
+C. edit() 
+D. commit() 
+
+56、 在自定义View时,每个View中都有一个用户绘画的画布,这个对象是（ B ） 
+A. Draw 
+B. Canvas 
+C. Handler 
+D. Touch 
+
+57、 onPrepareDialog()方法的作用是（ C ） 
+A. 负责显示对话框 
+B. 负责消失对话框 
+C. 负责在对话框生成但还没有显示出来的时候,在对话框上做修改 
+D. 负责创建对话框 
+
+58、 如果需要一个通知立即显示,那么在构造Notification对象的时候,需要在构造函数的第三个参数中传递什么值进去（ D ） 
+A. 0 
+B. new Date() 
+C. new Calendar() 
+D. System.currentTimeMillis() 
+
+59、 关于对话框,下面说法正确的是（ C ） 
+A. 使用new  AlertDialog()可以创建提示对话框 
+B. 无法创建带有输入框的对话框 
+C. 对话框的父类不是View 
+D. 对话框没有生命周期 
+
+60、 在Eclipse中进行android程序断点调试时,需要进入什么视图（ C ） 
+A. Java视图 
+B. DDMS视图 
+C. Debug视图 
+D. Android视图 
+
+61、 使用SharedPerfences存储数据时,会创建一个什么类型的文件来进行数据存放（ D ） 
+A. .cfg文件 
+B. .so文件 
+C. .properties文件 
+D. .xml文件 
+
+62、 使用startService()方法来启动Service时，下面说法错误的是（ D ） 
+A. 若Service没启动,会先调用Service的onCreate()方法,再调用onStart()方法 
+B. 若Service已经启动,则会直接调用onStartI()方法 
+C. 通过startService方法启动后,可用通过stopService方法来关闭服务 
+D. 关闭服务之后,调用服务的onDestroy方法 
+
+63、 使用bindService()方法来启动Service时,下面说法错误的是（ C ） 
+A. 若Service没启动,会先调用Service的onCreate()方法,再调用onBind()方法初始化绑定 
+B. 当绑定了Service的Context对象销毁时,被绑定的服务也会销毁 
+C. 与startService方法启动服务不同,使用该方式启动服务,可以在BroadcastReceiver上绑定服务 
+D. 绑定了服务的对象,可以通过unbindService()方法来取消对服务的绑定 
+
+64、 注册BroadcastReceiver,下面说法错误的是（ C ） 
+A. 有2种方式注册广播,一是静态的在AndroidManifest.xml中注册,二是动态的在代码中注册 
+B. 在AndroidManifest.xml中注册广播,需要使用<receiver>标签 
+C. 在代码中注册,需要创建BroadcastReceiver对象,并调用Context.registerReceiver()方法 
+D. 取消注册时,调用Context.unregisterReceiver()方法 
+
+65、 在AndroidManifest.xml中加入下面代码,<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED">表示什么含义（ A ） 
+A. 定义权限,用于接受系统启动完毕的Broadcast 
+B. 定义权限,用于启动系统加载完毕后的Service 
+C. 定义权限,用于发送系统启动完毕的Broadcast 
+D. 定义权限,用于控制根目录权限 
+
+66、 使用Android支持多国语言时,在values目录下,与简体中文对应的目录是（ C ） 
+A. values-zh-Ruk 
+B. values-zh-rTW 
+C. values-zh-rCN 
+D. values-en-rUs 
+
+67、 通过SharedPerfences保存的数据存储在什么文件夹下（ C ） 
+A. Files 
+B. TempFile 
+C. shared_prefs 
+D. prefs 
+
+66、 在读取文件时,不允许其他用户访问的权限是以下哪一个（ C ） 
+A. MODE_WORLD 
+B. MODE_WORLD_WRITE 
+C. MODE_PRIVATE 
+D. MODE_PUBLIC 
+
+67、 在程序中,使用SD的文件需要使用以下哪些权限（ B ） 
+A. android.permission.WRITE_EXTERNAL 
+B. android.permission.WRITE_EXTERNAL_STORAGE 
+C. android.permission.ACCESS_EXTERNAL_STORAGE 
+D. android.permission.ACCESS_FINE_LOCATION 
+
+68、 使用SharedPreferences进行数据存储的时候,下面哪个方法是不参与的（ D ） 
+A. edit() 
+B. put() 
+C. commit() 
+D. set() 
+
+69、 在下列操作中,ADB无法实现的操作是（ D ） 
+A. 管理设备或手机模拟器状态 
+B. 在设备上运行shell命令 
+C. 在设备或手机模拟器上复制或粘帖文件 
+D. 在设备或手机模拟器上调试程序 
+
+70、 当输入框的文本改变时,以下哪个接口可以实现对输入框控件内容变化进行监听（ C ） 
+A. TextListener 
+B. KeyListener 
+C. TextWatcher 
+D. ChangedListener 
+ 
+71、 以下哪个方法用于显示Toast（ D ） 
+A. showView() 
+B. hidden() 
+C. dismiss() 
+D. show() 
+
+72、 在创建AVD时,下面哪些是不能配置的选项（ C ） 
+A. SD卡支持 
+B. 缓存区大小 
+C. 蓝牙支持 
+D. 屏幕分辨率 
+
+73、 在AndroidManifest.xml中注册一个广播,需要使用什么标签（ D ） 
+A. <broadcastreceiver> 
+B. <broadcast> 
+C. <provider> 
+D. <receiver> 
+
+74、 对下面代码：notification.vibrate=new long[]{100,200,100,500}, 其中notification是通知管理器对象，下面理解正确的是（ A ） 
+A. 表示我们对Notification设置了震动,并且是100ms延迟后,震动200ms,然后停止100ms,再震动500ms 
+B. 表示我们对Notification设置了震动,并且震动时间分别为100ms,200ms,100ms,500ms,分四次提示 
+C. 表示我们对Notification设置了震动,并且震动时间分别为100s,200s,100s,500s,分四次提示 
+D. 表示我们对Notification设置了震动,并且是震动100MS后,延迟200MS,然后再震动100MS,再延迟500MS 
+
+75、  Toast toast = new Toast(this); toast.setText("今天天气不错\n哈哈"); toast.show(); 上面代码的执行结果是（ D ） 
+A. 提示"今天天气不错 哈哈"的提示框 
+B. 没有异常,但也不能提示任何内容,因为应该使用makeText方法,而不是setText方法 
+C. 提示"今天天气不错\n哈哈"的提示框 
+D. 代码会抛出异常,因为new出的Toast对象不能再使用setText方法来设置提示框文本 
+
+76、 关于AlertDialog描述错误的是（ C ） 
+A. AlertDialog不能直接用new关键字构建对象,而必须使用其内部类Builder 
+B. AlertDialog.Builder的create() 和show()方法都返回AlertDialog对象 
+C. create()方法创建并显示对话框 
+D. show()方法只显示对话框 
+
+77、 关于MediaPlayer描述错误的是（ D ） 
+A. 可以播放3GPP、MP3、AMR等格式 
+B. 既可以播放音频也可以播放视频 
+C. 播放状态有闲置、初始、结束、播放、暂停等 
+D. 被暂停后再次调用start方法,是从头开始播放 
+    
+78、 在Android中,定制文本框控件不可以通过下面哪种方式来完成（ B ） 
+A. 继承原有控件EditText,在子类中扩展父类功能 
+B. 完全自定义控件,不需继承任何类或接口,通过绘制,定义控件 
+C. 组合原有控件,将多个原有控件组合在定制控件中 
+D. 完全重写控件,继承View父类,通过绘制重新定义控件 
+
+79、 在Android中,所有标签属性前面都需要加android命名空间,对于定制组件,关于命名空间说法错误的是（ B ） 
+A. 可以沿用android命名空间 
+B. 必须改用其他命名空间 
+C. 可以改用其他命名空间 
+D. 不使用命名空间 
+
+80、 下面哪条语句可以将进度对话框设置为水平进度条风格（ A ） 
+A. progressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL) 
+B. progressDialog.setProgressStyle(ProgressDialog.STYLE_VERTICAL) 
+C. progressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER) 
+D. progressDialog.setProgressStyle(ProgressDialog.STYLE_CIRCLE) 
